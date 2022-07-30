@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background: black;
+    margin: 0px;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+
+}
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.navigation a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border-top:2px black ;
+    border-bottom: 2px black;
+    display: block;
+    color: white;
+}
+@media all and (max-width: 600px){
+    .navigation{
+        flex-flow: column wrap;
+        padding: 0; 
+    }
+    }
+img{
+    width: 78px;
+    height: 49px;
+    margin: 4.5px 4px 0px 0px;
+}
+/* .signup{
+    display: flex;
+    justify-content: center;
+} */
+
+/* main body */
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.signup1{
+    /* background-color: red; */
+    width: 50%;
+}
+.slider{
+    display: flex;
+    flex-flow: column;
+    /* border: 3px solid black; */
+    /* background-color: grey; */
+    /* width: 48%; */
+    height: 429px;
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
+}
+.ps{
+    display: block;
+    width: 45%;
+    /* border: 4px solid black;
+    overflow:auto; */
+}
+.slider img{
+    /* display: block; */
+    min-height: 77%;
+    /* position: sticky; */
+    min-width: 96%;
+    margin-left: 1%;
+    margin-bottom: 3px;
+    border: 3px dotted black;
+    
+}
+.slider h3{
+    text-align: center;
+}
+/*  .formgroup{
+    margin-left: 20px;
+    border: 4px solid black;
+    border-radius: 4%;
+    margin: 5px;
+    padding-left: 2px;
+    height: 416px;
+    font-size: larger;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+}
+.formgroup input{
+    padding: 10px 9px;
+    margin: 13px 4px;
+}
+.formgroup a{
+    display: flex;
+    display: block;
+    width: 74%;
+    margin: 22px auto;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 7px;
+    background-color: #c1c1c1;
+    border-radius: 9px;
+    
+}
+.formgroup h2{
+   text-align: center;
+
+} */
+body{
+    background-color: bisque;
+}
+
+/* concept car intro */
+.concept{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+
+}
+.concept a{
+    align-self: center;
+}
+.concept img{
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    height: 152px;
+    width: 300px;
+}
+
+/* more content  */
+
+.more{
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid black;
+    margin-bottom: 12px;
+    margin-left: 60px;
+    width:100%;
+    height: 520px;
+    background-color: rgb(245, 209, 166);
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    scrollbar-color: grey black;
+}
+.more a img{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+/* #vl{
+    width: 2px;
+    min-height: 900px;
+    background: red;
+} */
+footer {
+    text-align: center;
+    background-color: yellowgreen;
+    /* position: fixed;
+    bottom: 0; */
+    /* width: 100%; */
+}
+
+footer a{
+    /* text-decoration: none; */
+    font-size: 20px;
+    padding-left: 5px;
+}
+p{
+    font-family: 'Square Peg', cursive;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}
