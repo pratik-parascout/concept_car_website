@@ -190,3 +190,16 @@ p{
     padding-right: 5px;
     border: 2px solid black;
 }
+
+
+.head1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: grey;
+    border: 2px solid black;
+    
+}
+.head1 h1{
+    color: rgb(0, 0, 0);
+}
